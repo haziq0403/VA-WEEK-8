@@ -61,7 +61,9 @@ The target machine exposes multiple network services. These services may be vuln
 
 ## Screenshot
 
-![Fast Nmap Scan](images/challenge2.png)
+<p align="center">
+  <img src="screnshort/Fast Nmap Scan.png" width="600">
+</p>
 
 ---
 
@@ -89,7 +91,9 @@ TTL value 64 commonly indicates a Linux or Unix operating system. This suggests 
 
 ## Screenshot
 
-![TTL Fingerprinting](images/challenge5.png)
+<p align="center">
+  <img src="screnshort/TTL OS Fingerprinting.png" width="600">
+</p>
 
 ---
 
@@ -117,7 +121,9 @@ The target machine is running vsFTPd version 2.3.4. Older versions of FTP servic
 
 ## Screenshot
 
-![FTP Banner](images/challenge9.png)
+<p align="center">
+  <img src="screnshort/FTP Banner.png" width="600">
+</p>
 
 ---
 
@@ -154,7 +160,9 @@ The FTP server allows authenticated access and exposes accessible directories. A
 
 ## Screenshot
 
-![FTP Login](images/challenge10.png)
+<p align="center">
+  <img src="screnshort/Anonymous FTP Login.png" width="600">
+</p>
 
 ---
 
@@ -188,7 +196,13 @@ SMB enumeration can expose usernames, shares, and operating system information t
 
 ## Screenshot
 
-![SMB Enumeration](images/challenge11.png)
+<p align="center">
+  <img src="screnshort/SMB NSE Enumeration 1.png" width="600">
+</p>
+
+<p align="center">
+  <img src="screnshort/SMB NSE Enumeration 2.png" width="600">
+</p>
 
 ---
 
@@ -220,8 +234,29 @@ Enum4linux provides detailed information about SMB configurations and may expose
 
 ## Screenshot
 
-![Enum4linux](images/challenge12.png)
+<p align="center">
+  <img src="screnshort/Enum4linux 1.png" width="600">
+</p>
 
+<p align="center">
+  <img src="screnshort/Enum4linux 2.png" width="600">
+</p>
+
+<p align="center">
+  <img src="screnshort/Enum4linux 3.png" width="600">
+</p>
+
+<p align="center">
+  <img src="screnshort/Enum4linux 4.png" width="600">
+</p>
+
+<p align="center">
+  <img src="screnshort/Enum4linux 5.png" width="600">
+</p>
+
+<p align="center">
+  <img src="screnshort/Enum4linux 6.png" width="600">
+</p>
 ---
 
 # Challenge 13 — NFS Exports
@@ -248,7 +283,9 @@ The target machine exposes NFS shared directories to all hosts. Improperly secur
 
 ## Screenshot
 
-![NFS Export](images/challenge13.png)
+<p align="center">
+  <img src="screnshort/NFS Exports.png" width="600">
+</p>
 
 ---
 
@@ -279,7 +316,9 @@ Version detection helps identify outdated software that may contain vulnerabilit
 
 ## Screenshot
 
-![Version Detection](images/challenge16.png)
+<p align="center">
+  <img src="screnshort/Version Detection.png" width="600">
+</p>
 
 ---
 
@@ -305,7 +344,9 @@ Operating system detection helps attackers determine suitable exploitation metho
 
 ## Screenshot
 
-![OS Detection](images/challenge17.png)
+<p align="center">
+  <img src="screnshort/OS Detection.png" width="600">
+</p>
 
 ---
 
@@ -333,7 +374,9 @@ The Finger service is disabled or unavailable on the target machine. This reduce
 
 ## Screenshot
 
-![Finger Enumeration](images/challenge18.png)
+<p align="center">
+  <img src="screnshort/Finger Enumeration.png" width="600">
+</p>
 
 ---
 
@@ -364,7 +407,9 @@ RPC services provide useful information about NFS and network file-sharing confi
 
 ## Screenshot
 
-![RPC Enumeration](images/challenge19.png)
+<p align="center">
+  <img src="screnshort/RPC Info.png" width="600">
+</p>
 
 ---
 
@@ -390,7 +435,9 @@ SMTP enumeration may reveal valid usernames that attackers can use during brute-
 
 ## Screenshot
 
-![SMTP Enumeration](images/challenge29.png)
+<p align="center">
+  <img src="screnshort/SMTP Enumeration via Nmap.png" width="600">
+</p>
 
 ---
 
